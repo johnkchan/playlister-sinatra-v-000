@@ -8,5 +8,4 @@
 <h3>Genres:</h3>
     <% @artist.genres.each do |genre| %>
         <h5><a href='/genres/<%= genre.slug %>'><%= genre.name %><a></h5>
-
     <% end%>
